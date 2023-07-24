@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,8 +13,15 @@
         </header>
         <main>
             <!-- Our Featured Products -->
-            <section class=" Manrope">
-                <div class="w-10/12 overflow-hidden mx-auto py-8 my-14">
+            <section class=" hidden Manrope">
+                <div class="w-10/12 overflow-hidden mx-auto py-8 ">
+                    <!-- Featured -->
+                    <div class="text-center py-12">
+                        <h2 class="font-extrabold text-3xl pb-4 text-black" >Our Featured Products</h2>
+                        <p class="text-zinc-500">
+                            There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, <br> by injected humour, or randomised words which don't look even slightly believable.
+                        </p> 
+                    </div>
                     <!-- Featured-Card -->
                     <div class="flex flex-col gap-6 sm:grid sm:grid-cols-2 lg:flex lg:flex-row lg:justify-between overflow-hidden ">
                         <!-- Featured-Card-1 -->
@@ -50,14 +57,10 @@
                             </div>
                         </div>
                     </div>
-                    <!-- Featured -->
-                    <div>
-            
-                    </div>
                 </div>
             </section>
             <!-- Great Tea, Freshly Presented     -->
-            <section class=" text-black">
+            <section class="hidden text-black">
                 <div class=" w-auto sm:w-11/12 md:w-10/12 m-auto py-9 overflow-hidden">
                     <div class="flex flex-col md:flex-row items-center  gap-10">
                         <div class="mx-3 md:mx-0 md:w-2/4 overflow-hidden">
@@ -96,7 +99,7 @@
                 </div>
             </section>
             <!-- Meet Our Super Clients -->
-            <section>
+            <section class="hidden">
                 <div class="w-auto sm:w-11/12 md:w-10/12 mx-auto bg-gradient-to-r from-[#FF8938] to-[#F00000] overflow-hidden rounded-xl text-white Manrope  my-32">
                     <div class="relative py-16 px-10">
                         <div class="flex flex-col gap-20 w-full lg:flex-row">
@@ -197,8 +200,62 @@
                     </div>
                 </div>
             </section>
+            <!-- News & Events -->
+            <section class="Manrope">
+                <div class="w-auto sm:w-11/12 md:w-10/12 mx-auto">
+                    <!-- News & Events - titel -->
+                    <div class="text-center py-12">
+                        <h2 class="font-extrabold text-3xl pb-4 text-black" >News & Events</h2>
+                        <p class="text-zinc-500">
+                            There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, <br> by injected humour, or randomised words which don't look even slightly believable.
+                        </p> 
+                    </div>
+                    <div class="flex flex-col items-center sm:grid sm:grid-cols-2  md:flex md:flex-row overflow-hidden items-center sm:justify-between lg:px-10 xl:mx-10 gap-4 xl:gap-7">
+                        <!-- News & Events card -1 -->
+                        <div class="w-72 sm:w-auto">
+                            <div class=" card rounded-lg p-3 px-2 border-2 border-zinc-200 shadow-sm shadow-gray-200">
+                                <figure><img class=" pb-4" src="./images/news-1.png" alt="" /></figure>
+                                <div class=" p-3">
+                                    <span class="font-light">Feb 05, 2027</span>
+                                    <h2 class="card-title py-3 font-extrabold  text-base md:text-lg lg:text-xl">Collecting 8 points for discount</h2>
+                                    <p class="pb-5" >There are many variations of passages of Lorem Ipsum available.</p>
+                                    <span class="font-semibold" >Learn More</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- News & Events card -2 -->
+                        <div class="w-72 sm:w-auto">
+                            <div class=" card rounded-lg p-3 px-2 border-2 border-zinc-200 shadow-sm shadow-gray-200">
+                                <figure><img class=" pb-4" src="./images/news-2.png" alt="" /></figure>
+                                <div class=" p-3">
+                                    <span class="font-light">Feb 05, 2027</span>
+                                    <h2 class="card-title py-3 font-extrabold  text-base md:text-lg lg:text-xl">Collecting 8 points for discount</h2>
+                                    <p class="pb-5" >There are many variations of passages of Lorem Ipsum available.</p>
+                                    <span class="font-semibold" >Learn More</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- News & Events card -3 -->
+                        <div class="w-72 sm:w-auto">
+                            <div class=" card rounded-lg p-3 px-2 border-2 border-zinc-200 shadow-sm shadow-gray-200">
+                                <figure><img class=" pb-4" src="./images/news-3.png" alt="" /></figure>
+                                <div class=" p-3">
+                                    <span class="font-light">Feb 05, 2027</span>
+                                    <h2 class="card-title py-3 font-extrabold  text-base md:text-lg lg:text-xl">Collecting 8 points for discount</h2>
+                                    <p class="pb-5" >There are many variations of passages of Lorem Ipsum available.</p>
+                                    <span class="font-semibold" >Learn More</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </main>
         <footer>
         </footer>
+
+        <!-- <div class="w-auto sm:w-11/12 md:w-10/12 mx-auto">
+        </div> -->
+
     </body>
 </html>
